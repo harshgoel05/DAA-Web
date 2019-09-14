@@ -1,0 +1,42 @@
+body{
+    font-family: Tahoma,sans-serif;
+    background-image:url("../img/background/3.jpg");
+    background-size: contain;
+}
+.pics{
+  height: auto;
+  max-width: 100%;
+  border-style:groove;
+  border-radius: 30px;
+  border-width: thick;
+    transition: 0.3s;
+}
+.pics:hover{
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.row{
+  text-align: center;
+  background-size: contain;
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-family: "Courier Header";
+  font-size: 3vw;
+  text-decoration: underline;
+  padding: 15px;
+}
+p{
+  font-size: 1.3vw;
+text-align: justify;
+font-family:sans-serif;
+color: black;
+padding-left: 30px;
+padding-right: 30px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+padding-top: 25px;
+}

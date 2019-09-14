@@ -1,0 +1,72 @@
+body{
+  font-family: Tahoma,sans-serif;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+  transition: 0.3s;
+  width: 400px;
+}
+.alumnipic{
+  width: 100%;
+}
+.container-fluid {
+background-color: #fffdf2;
+}
+.col{
+  padding: 25px;
+}
+/* For hiding and showing Desriptions */
+.alumni1{
+  display: none;
+}
+.alumnicard1:hover .alumni1{
+  display: block;
+}
+.alumni2{
+  display: none;
+}
+.alumnicard2:hover .alumni2{
+  display: block;
+}
+.alumni3{
+  display: none;
+}
+.alumnicard3:hover .alumni3{
+  display: block;
+}
+.alumni4{
+  display: none;
+}
+.alumnicard4:hover .alumni4{
+  display: block;
+}
+.alumni5{
+  display: none;
+}
+.alumnicard5:hover .alumni5{
+  display: block;
+}
+.alumni6{
+  display: none;
+}
+.alumnicard6:hover .alumni6{
+  display: block;
+}
+.alumni7{
+  display: none;
+}
+.alumnicard7:hover .alumni7{
+  display: block;
+}
+.alumni8{
+  display: none;
+}
+.alumnicard8:hover .alumni8{
+  display: block;
+}
+.alumni9{
+  display: none;
+}
+.alumnicard9:hover .alumni9{
+  display: block;
+}
