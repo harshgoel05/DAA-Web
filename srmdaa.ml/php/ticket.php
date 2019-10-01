@@ -8,10 +8,10 @@ $branch = filter_input(INPUT_POST, 'branch');
 $year = filter_input(INPUT_POST, 'year');
 $phoneno = filter_input(INPUT_POST, 'phoneno');
 $email = filter_input(INPUT_POST, 'mailid');
-$host = "localhost";
-$dbusername = "id9421571_srm_alumni";
-$dbpassword = "alumni123";
-$dbname = "id9421571_alumnidata";
+$host = "sql105.unaux.com";
+$dbusername = "unaux_24328535";
+$dbpassword = "harsh123";
+$dbname = "unaux_24328535_srm_alumni";
 
 // Create connection
 

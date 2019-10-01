@@ -40,7 +40,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="events.html">Events Tickets</a>
+          <a class="nav-link" href="http://tickets.srmdaa.ml">Events Tickets</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="community.html">Community</a>
@@ -109,7 +109,7 @@
   <br>
   <!--Countdown timer-->
   <center>
-    <h1 class="Countdowndisplay">Upcoming Event in:</h1>
+    <h1 class="Countdowndisplay">Internship Fair in:</h1>
     <div id="clockdiv">
       <div>
         <span class="days" id="day"></span>
@@ -130,7 +130,7 @@
     </div>
     <p id="demo"></p>
     <script>
-    var deadline = new Date("july 20, 2019 11:00:00").getTime();
+    var deadline = new Date("oct 9, 2019 18:00:00").getTime();
     var x = setInterval(function() {
       var now = new Date().getTime();
       var t = deadline - now;
@@ -144,27 +144,26 @@
       document.getElementById("second").innerHTML =seconds;
       if (t < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "TIME UP";
+        // document.getElementById("demo").innerHTML = "TIME UP";
         document.getElementById("day").innerHTML ='0';
         document.getElementById("hour").innerHTML ='0';
         document.getElementById("minute").innerHTML ='0' ;
         document.getElementById("second").innerHTML = '0'; }
       }, 1000);
     </script>
-    <a  href="events.html"><button type="button" class="btn btn-success">Click here to know more</button></a>
-  </center>
-<center>
+    <a  href="http://www.tickets.srmdaa.ml"><button type="button" class="btn btn-success">Click here to know more</button></a>
+
   <br><br>
     <h3 class="boldheading">Types of events we organise</h3>
     <a  href="upcoming/internshipfair.html">  <button type="button" class="btn btn-warning">Internship Fair</button></a>
     <a  href="upcoming/achiversconnect.html"><button type="button" class="btn btn-danger" >Achivers' Connect</button></a>
-    <a  href="upcoming/leadershiptalk.html"><button type="button" class="btn btn-success">Leadership Talk</button><a>
+    <a  href="upcoming/leadershiptalk.html"><button type="button" class="btn btn-warning">Leadership Talk</button><a>
 </center>
 <br><br>
-<center>
+<!-- <center>
 <a  href="certificate.php"><button type="button" class="btn cbtn">Click here for Achivers' Connect Certificates</button><a>
   <br>  <br>  <br>
-</center
+</center> -->
 <div class="contactinfo">
   <p class="fancy"><span>Contact Us!</span></p>
   <p class="contact">Room No: 17, 4th Floor, University Building<br>
@@ -178,11 +177,11 @@ Telephone: +91 44 2741 7272/+91 44 2745 6726<br>
 
 
     <div class="footer">
-      <a href="https://www.facebook.com/srmuaa/" ><img class="icon" src="img/icons/facebook.png"></a>
-      <a href="https://www.linkedin.com/school/srmuaa/"><img class="icon" src="img/icons/linkedin.png"></a>
-      <a href="https://www.youtube.com/channel/UCt3U8LCUn6BA6E3ksv1wlcg"><img class="icon"  src="img/icons/youtube.png"></a>
-      <a href="https://www.instagram.com/srmuaa/?hl=en"><img class="icon" src="img/icons/instagram.png"></a>
-      <a href="https://www.twitter.com/srmuaa"><img class="icon" src="img/icons/twitter.png"></a>
+      <a class="socialicons" href="https://www.facebook.com/srmuaa/" ><i class="fa fa-facebook fa-2x"></i></a>
+      <a class="socialicons" href="https://www.linkedin.com/school/srmuaa/"><i class="fa fa-linkedin fa-2x"></i></a>
+      <a class="socialicons" href="https://www.youtube.com/channel/UCt3U8LCUn6BA6E3ksv1wlcg"><i class="fa fa-youtube fa-2x"></i></a>
+      <a class="socialicons" href="https://www.instagram.com/srmuaa/?hl=en"><i class="fa fa-instagram fa-2x"></i></a>
+      <a class="socialicons" href="https://www.twitter.com/srmuaa"><i class="fa fa-twitter fa-2x"></i></a>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

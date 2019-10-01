@@ -7,10 +7,11 @@
  $current_location = filter_input(INPUT_POST, 'location');
  $linkedin = filter_input(INPUT_POST, 'linkedin');
  $facebook = filter_input(INPUT_POST, 'facebook');
-$host = "localhost";
-$dbusername = "id9421571_srm_alumni";
-$dbpassword = "alumni123";
-$dbname = "id9421571_alumnidata";
+ $host = "sql105.unaux.com";
+ $dbusername = "unaux_24328535";
+ $dbpassword = "harsh123";
+ $dbname = "unaux_24328535_srm_alumni";
+ 
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 if (mysqli_connect_error())

@@ -1,5 +1,6 @@
 body{
   font-family: Tahoma,sans-serif;
+  background-color: #fffdf2;
 }
 
 .card {
@@ -17,9 +18,7 @@ img {
 .container {
   padding: 10px 16px;
 }
-.container-fluid {
-background-color: #fffdf2;
-}
+
 .teamheading{
   font-family:"Courier Header";
   color: #388ac4;
@@ -38,4 +37,7 @@ background-color: #fffdf2;
 }
 .col{
   padding: 10px;
+}
+.footer{
+  padding: 1%
 }
